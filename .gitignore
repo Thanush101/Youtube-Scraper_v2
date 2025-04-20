@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Output folders
+output/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit and Playwright logs
+.streamlit/
+playwright.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode and IDE settings
+.vscode/
+.idea/

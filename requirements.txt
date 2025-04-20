@@ -1,0 +1,10 @@
+streamlit
+playwright
+pandas
+python-dotenv
+
+# For running on Windows
+asyncio
+
+# Only if you use these in your code (remove if not needed)
+argparse

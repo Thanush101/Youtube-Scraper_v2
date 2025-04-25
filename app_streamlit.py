@@ -21,7 +21,7 @@ from playwright.sync_api import sync_playwright
 # --- Helper function (refactored from Youtube_scraperV3.py) ---
 def scrape_youtube_streamlit(course_name):
     # Improve English targeting in search
-    modified_course_name = f"{course_name} English tutorial playlist"
+    modified_course_name = f"{course_name}in English -hindi -हिन्दी -हिंदी"
     from Youtube_scraperV3 import get_playlist_search_url as orig_get_playlist_search_url
     def get_playlist_search_url(course_name):
         import urllib.parse

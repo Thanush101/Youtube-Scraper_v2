@@ -12,7 +12,7 @@ log = logging.getLogger(__name__)
 
 def get_playlist_search_url(course_name):
     # Append " in English" to enforce language filtering
-    modified_course_name = f"{course_name} in English"
+    modified_course_name = f"{course_name} in in English -hindi -हिन्दी -हिंदी"
     encoded_course = urllib.parse.quote(modified_course_name)
     
     # Use the search filter that prioritizes playlists

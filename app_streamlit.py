@@ -1,8 +1,8 @@
 import os
 
 # Ensure Playwright and its dependencies are installed on Streamlit Cloud
-# os.system("playwright install chromium")
-# os.system("playwright install-deps")
+os.system("playwright install chromium")
+os.system("playwright install-deps")
 
 import streamlit as st
 import json
